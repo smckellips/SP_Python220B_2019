@@ -120,5 +120,6 @@ class TestBasicOperations(TestCase):
 
 
     def test_failing_test(self):
+        '''Add failing test.'''
         #Instructions say to show some tests failing:
-        self.assertEqual(1,2)
+        self.assertEqual(1, 2)
